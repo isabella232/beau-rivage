@@ -123,13 +123,13 @@ name = ss01;
 fontMaster = (
 {
 alignmentZones = (
-"{900, 16}",
 "{700, 15}",
+"{685, 15}",
 "{350, 16}",
-"{0, 20}",
-"{-400, -16}"
+"{0, -15}",
+"{-330, -16}"
 );
-ascender = 900;
+ascender = 685;
 capHeight = 700;
 customParameters = (
 {
@@ -177,7 +177,7 @@ name = underlineThickness;
 value = 21;
 }
 );
-descender = -400;
+descender = -330;
 guideLines = (
 {
 locked = 1;
@@ -40793,7 +40793,7 @@ unicode = 00F1;
 {
 color = 8;
 glyphname = o;
-lastChange = "2022-01-11 20:21:47 +0000";
+lastChange = "2022-01-11 20:30:14 +0000";
 layers = (
 {
 background = {
@@ -40877,17 +40877,17 @@ nodes = (
 "98 279 CURVE SMOOTH",
 "55 219 OFFCURVE",
 "23 120 OFFCURVE",
-"23 47 CURVE SMOOTH",
-"23 20 OFFCURVE",
-"23 -5 OFFCURVE",
+"23 43 CURVE SMOOTH",
+"23 7 OFFCURVE",
+"32 -5 OFFCURVE",
 "57 -5 CURVE SMOOTH"
 );
 },
 {
 closed = 1;
 nodes = (
-"74 25 OFFCURVE",
-"73 47 OFFCURVE",
+"76 25 OFFCURVE",
+"73 40 OFFCURVE",
 "73 56 CURVE SMOOTH",
 "73 129 OFFCURVE",
 "111 226 OFFCURVE",
@@ -45136,7 +45136,7 @@ unicode = 1E81;
 {
 color = 8;
 glyphname = x;
-lastChange = "2022-01-11 20:21:47 +0000";
+lastChange = "2022-01-11 20:27:04 +0000";
 layers = (
 {
 background = {
@@ -45245,11 +45245,11 @@ nodes = (
 "72 103 OFFCURVE",
 "86 117 OFFCURVE",
 "100 131 CURVE",
-"110 98 OFFCURVE",
-"138 14 OFFCURVE",
-"170 -1 CURVE SMOOTH",
-"178 -5 OFFCURVE",
-"186 -7 OFFCURVE",
+"106 110 OFFCURVE",
+"120 69 OFFCURVE",
+"137 37 CURVE SMOOTH",
+"150 13 OFFCURVE",
+"165 -7 OFFCURVE",
 "195 -7 CURVE SMOOTH",
 "231 -7 OFFCURVE",
 "252 36 OFFCURVE",
@@ -45332,7 +45332,7 @@ unicode = 0078;
 {
 color = 8;
 glyphname = y;
-lastChange = "2022-01-11 20:21:47 +0000";
+lastChange = "2022-01-11 20:27:46 +0000";
 layers = (
 {
 background = {
@@ -45477,9 +45477,9 @@ nodes = (
 "136 65 OFFCURVE",
 "111 41 OFFCURVE",
 "97 41 CURVE SMOOTH",
-"87 41 OFFCURVE",
-"86 52 OFFCURVE",
-"86 59 CURVE SMOOTH",
+"90 41 OFFCURVE",
+"86 46 OFFCURVE",
+"86 56 CURVE SMOOTH",
 "86 68 OFFCURVE",
 "98 94 OFFCURVE",
 "101 103 CURVE SMOOTH",
@@ -45504,8 +45504,8 @@ nodes = (
 "114 219 OFFCURVE",
 "23 84 OFFCURVE",
 "23 26 CURVE SMOOTH",
-"23 14 OFFCURVE",
-"25 -6 OFFCURVE",
+"23 4 OFFCURVE",
+"30 -6 OFFCURVE",
 "42 -6 CURVE SMOOTH",
 "52 -6 OFFCURVE",
 "65 1 OFFCURVE",
