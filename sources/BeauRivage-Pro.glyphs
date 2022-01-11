@@ -96493,16 +96493,7 @@ note = _0127;
 );
 instances = (
 {
-customParameters = (
-{
-name = postscriptFullName;
-value = "Beau Rivage Pro Regular";
-},
-{
-name = postscriptFontName;
-value = "BeauRivagePro-Regular";
-}
-);
+interpolationWeight = 400;
 instanceInterpolations = {
 "56A77921-5252-498D-AF45-CD2B441B871C" = 1;
 };
