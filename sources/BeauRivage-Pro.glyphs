@@ -2,7 +2,8 @@
 .appVersion = "1352";
 DisplayStrings = (
 abcdefghijklmnopqrstuvwxyz,
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
+ABCDEFGHIJKLMNOPQRSTUVWXYZ,
+"/Hbar/Hbar.ss01/Ldot/Ldot.ss01/Lslash/Lslash.ss01 \012/hbar/hbar.ss01/ldot/ldot.ss01/lslash/lslash.ss01/space ø/oslash.ss01"
 );
 copyright = "Copyright 2004 The Beau Rivage Project Authors (https://github.com/googlefonts/beau-rivage)";
 customParameters = (
@@ -134,31 +135,35 @@ capHeight = 700;
 customParameters = (
 {
 name = typoAscender;
-value = 941;
+value = 900;
 },
 {
 name = typoDescender;
-value = -442;
+value = -400;
 },
 {
 name = typoLineGap;
 value = 0;
 },
 {
-name = winAscent;
-value = 941;
-},
-{
-name = winDescent;
-value = 442;
-},
-{
 name = hheaAscender;
-value = 941;
+value = 900;
 },
 {
 name = hheaDescender;
-value = -442;
+value = -400;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 900;
+},
+{
+name = winDescent;
+value = 400;
 },
 {
 name = strikeoutPosition;
@@ -7236,7 +7241,7 @@ unicode = 013B;
 {
 color = 11;
 glyphname = Ldot;
-lastChange = "2022-01-11 20:20:37 +0000";
+lastChange = "2022-01-11 21:52:31 +0000";
 layers = (
 {
 background = {
@@ -21704,19 +21709,15 @@ width = 935;
 note = H;
 },
 {
-color = 11;
+color = 0;
 glyphname = Hbar.ss01;
-lastChange = "2022-01-11 20:20:37 +0000";
+lastChange = "2022-01-11 21:51:38 +0000";
 layers = (
 {
 background = {
 components = (
 {
 name = H.ss01;
-},
-{
-name = emdash.ss01;
-transform = "{1, 0, 0, 1, 290, 272}";
 }
 );
 };
@@ -21725,8 +21726,8 @@ components = (
 name = H.ss01;
 },
 {
-name = emdash.ss01;
-transform = "{1, 0, 0, 1, 290, 272}";
+name = emdash;
+transform = "{1, 0, 0, 1, 265, 277}";
 }
 );
 layerId = "56A77921-5252-498D-AF45-CD2B441B871C";
@@ -23939,17 +23940,13 @@ width = 887;
 {
 color = 11;
 glyphname = Ldot.ss01;
-lastChange = "2022-01-11 20:20:37 +0000";
+lastChange = "2022-01-11 21:52:46 +0000";
 layers = (
 {
 background = {
 components = (
 {
 name = L.ss01;
-},
-{
-name = periodcentered.ss01;
-transform = "{1, 0, 0, 1, 515, -104}";
 }
 );
 };
@@ -23958,8 +23955,8 @@ components = (
 name = L.ss01;
 },
 {
-name = periodcentered.ss01;
-transform = "{1, 0, 0, 1, 515, -104}";
+name = periodcentered;
+transform = "{1, 0, 0, 1, 547, -54}";
 }
 );
 layerId = "56A77921-5252-498D-AF45-CD2B441B871C";
@@ -23970,17 +23967,13 @@ width = 887;
 {
 color = 11;
 glyphname = Lslash.ss01;
-lastChange = "2022-01-11 20:20:37 +0000";
+lastChange = "2022-01-11 22:22:32 +0000";
 layers = (
 {
 background = {
 components = (
 {
 name = L.ss01;
-},
-{
-name = endash.ss01;
-transform = "{0.87617, 0, 0, 1, 131, -8}";
 }
 );
 };
@@ -23989,8 +23982,8 @@ components = (
 name = L.ss01;
 },
 {
-name = endash.ss01;
-transform = "{0.87617, 0, 0, 1, 131, -8}";
+name = strokeshortcomb;
+transform = "{0.99452, 0.10453, -0.10453, 0.99452, 293, 57}";
 }
 );
 layerId = "56A77921-5252-498D-AF45-CD2B441B871C";
@@ -51207,16 +51200,13 @@ width = 149;
 {
 color = 11;
 glyphname = ldot.ss01;
-lastChange = "2022-01-11 20:20:37 +0000";
+lastChange = "2022-01-11 22:26:34 +0000";
 layers = (
 {
 background = {
 components = (
 {
 name = l.ss01;
-},
-{
-name = periodcentered.ss01;
 }
 );
 };
@@ -51225,7 +51215,7 @@ components = (
 name = l.ss01;
 },
 {
-name = periodcentered.ss01;
+name = periodcentered;
 }
 );
 layerId = "56A77921-5252-498D-AF45-CD2B441B871C";
@@ -51236,17 +51226,13 @@ width = 149;
 {
 color = 11;
 glyphname = lslash.ss01;
-lastChange = "2022-01-11 20:20:37 +0000";
+lastChange = "2022-01-11 22:27:52 +0000";
 layers = (
 {
 background = {
 components = (
 {
 name = l.ss01;
-},
-{
-name = hyphen.ss01;
-transform = "{1, 0, 0, 1, -103, 38}";
 }
 );
 };
@@ -51255,8 +51241,9 @@ components = (
 name = l.ss01;
 },
 {
-name = hyphen.ss01;
-transform = "{1, 0, 0, 1, -103, 38}";
+alignment = -1;
+name = strokeshortcomb;
+transform = "{0.99452, 0.10453, -0.10453, 0.99452, -4, 109}";
 }
 );
 layerId = "56A77921-5252-498D-AF45-CD2B441B871C";
@@ -52975,17 +52962,13 @@ width = 632;
 },
 {
 glyphname = oslash.ss01;
-lastChange = "2022-01-11 20:21:47 +0000";
+lastChange = "2022-01-11 22:28:40 +0000";
 layers = (
 {
 background = {
 components = (
 {
 name = o.ss01;
-},
-{
-name = slash.ss01;
-transform = "{0.59109, 0, 0, 0.72889, 9, -21}";
 }
 );
 };
@@ -52994,7 +52977,7 @@ components = (
 name = o.ss01;
 },
 {
-name = slash.ss01;
+name = slash;
 transform = "{0.59109, 0, 0, 0.72889, 9, -21}";
 }
 );
@@ -96887,5 +96870,5 @@ manufacturer = "Robert E. Leuschke";
 manufacturerURL = www.typesetit.com;
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 1;
+versionMinor = 2;
 }
