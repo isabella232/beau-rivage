@@ -97888,7 +97888,7 @@ width = 0;
 {
 color = 3;
 glyphname = circumflexcomb_acutecomb;
-lastChange = "2022-01-28 14:00:14 +0000";
+lastChange = "2022-02-08 19:36:56 +0000";
 layers = (
 {
 anchors = (
@@ -97913,8 +97913,9 @@ components = (
 name = circumflexcomb;
 },
 {
+alignment = -1;
 name = acutecomb;
-transform = "{1, 0, 0, 1, 45, 123}";
+transform = "{1, 0, 0, 1, -75, 93}";
 }
 );
 layerId = "56A77921-5252-498D-AF45-CD2B441B871C";
@@ -97925,7 +97926,7 @@ width = 0;
 {
 color = 3;
 glyphname = circumflexcomb_gravecomb;
-lastChange = "2022-01-28 14:00:14 +0000";
+lastChange = "2022-02-08 19:37:10 +0000";
 layers = (
 {
 anchors = (
@@ -97950,8 +97951,9 @@ components = (
 name = circumflexcomb;
 },
 {
+alignment = -1;
 name = gravecomb;
-transform = "{1, 0, 0, 1, 45, 123}";
+transform = "{1, 0, 0, 1, 115, 93}";
 }
 );
 layerId = "56A77921-5252-498D-AF45-CD2B441B871C";
